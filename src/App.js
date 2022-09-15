@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Menu from "./components/Menu";
 
 import "./css/app.css";
+import LoginForm from "./pages/LoginForm";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<LoginForm />} />
       </Routes>
     </>
   );

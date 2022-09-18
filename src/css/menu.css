@@ -1,8 +1,35 @@
-.menu {
-    font-size: 1.2em;
+nav.navbar {
+    font-size: 1em;
     background-color:#7235F3;
     color:white;
-    padding: 15px;
+    padding: 0;
+}
+
+div.navbar-collapse {
+    padding:10px 0;
+}
+button.navbar-toggler {
+    color:white;
+}
+
+a.navbar-brand {
+    font-size: 1.4em;
+    color:white;
+    font-weight:bold;
+    padding:7px 10px;
+}
+a.navbar-brand:hover {
+    color:white;
+    background-color:#6029d4;
+}
+
+a.nav-link {
+    font-weight: bold;
+    color:white;
+}
+
+a.nav-link:hover {
+    color:yellow;
 }
 
 ul {
@@ -13,13 +40,36 @@ ul {
     margin: 0;
 }
 
-.menu li a {
+a.nav-link {
     color:white;
     text-decoration: none;
+    padding:5px 8px;
 }
 
 .activelink {
     font-weight: bold;
     color: #07c5fa;
 }
-  
+
+span.separator {
+    margin-top:3px;
+}
+
+
+h1 {
+    color:white;
+}
+
+
+button.btn {
+    font-weight: bold;
+}
+
+button.btn-primary {
+    background-color: #df3e6e;
+    border:0;
+}
+
+button.btn-primary:hover {
+    background-color: #d1275a;
+}

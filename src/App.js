@@ -1,9 +1,9 @@
 import "./App.css";
+import "./css/app.css";
+
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Menu from "./components/Menu";
-
-import "./css/app.css";
 
 function App() {
   return (

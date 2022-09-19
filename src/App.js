@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Menu from "./components/Menu";
 import LoginForm from "./pages/LoginForm";
 import RegisterForm from "./pages/RegisterForm";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<LoginForm />} />
-        <Route path="/register" element={<RegisterForm />} />
+        <Route path="/connexion" element={<Login />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );

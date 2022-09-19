@@ -10,9 +10,10 @@ const Posts = () => {
         {posts.map((post) => (
           <Link
             to="/profile"
+            key={post._id}
             style={{ textDecoration: "none", color: "#5c5c5c" }}
           >
-            <div key={post._id} className="posts-content">
+            <div className="posts-content">
               <>
                 <div className="imgBx">
                   <img src={post.img} alt="user" />

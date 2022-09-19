@@ -1,0 +1,50 @@
+h1{
+    color: #7235F3;
+    text-transform: uppercase;
+}
+
+.login{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input[type="email"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 100%;
+}
+::placeholder
+
+{
+  font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ### BOUTON ### */
+
+  .btn{
+    background-color: #7235F3;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+  }

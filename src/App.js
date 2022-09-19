@@ -4,7 +4,7 @@ import "./css/app.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Menu from "./components/Menu";
-import Login from "./pages/Login";
+import LoginForm from "./pages/LoginForm";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/connexion" element={<Login />} />
+        <Route path="/login" element={<LoginForm />} />
       </Routes>
     </>
   );

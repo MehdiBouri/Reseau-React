@@ -1,7 +1,3 @@
-h1{
-    color: #7235F3;
-    text-transform: uppercase;
-}
 
 .login{
     border: 1px solid black;
@@ -13,18 +9,19 @@ h1{
 }
 input[type="email"],
 input[type="password"] {
-  height: 25px;
+  height: 35px;
+  padding: 5px 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   width: 100%;
 }
-::placeholder
 
+::placeholder
 {
   font-weight: bold;
 }
 
-.input-container {
+.login .input-container {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -32,14 +29,14 @@ input[type="password"] {
     margin-bottom: 10px;
   }
 
-  .button-container {
+  .login  .button-container {
     display: flex;
     justify-content: center;
   }
 
   /* ### BOUTON ### */
 
-  .btn{
+  .login  .btn{
     background-color: #7235F3;
     width: 100%;
     border-radius: 10px;

@@ -8,11 +8,11 @@ import {
   InputGroup,
 } from "react-bootstrap";
 
-export default function BasicExample() {
+export default function Menu() {
   return (
     <Navbar expand="sm" className="navbar-dark">
       <Container>
-        <Navbar.Brand href="#home">JOKE'ME</Navbar.Brand>
+        <Navbar.Brand href="/">JOKE'ME</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>

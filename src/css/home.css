@@ -6,7 +6,7 @@ body {
   background: #fff;
 }
 
-.home-posts {
+div.home-posts {
   margin-left: 10%;
   margin-top: 3em;
   width: 50%;

@@ -1,8 +1,19 @@
 import React from "react";
 import "../css/register.css";
 import { Formik, Field, Form } from "formik";
+import { useState } from 'react';
+import ReactiveButton from 'reactive-button';
 
 export default function RegisterForm() {
+  const [state, setState] = useState('idle');
+  const onClickHandler = () => {
+    setState('loading');
+
+    // send an HTTP request
+    setTimeout(() => {
+      setState('success');
+    }, 2000);
+  };
 
     return (
         <div className="register">
@@ -55,9 +66,18 @@ export default function RegisterForm() {
               />
             </div>
             <div className="button-container">
-              <button type="submit" class="btn">
-                S'inscrire
-              </button>
+            <ReactiveButton
+              buttonState={state}
+              idleText="inscription"
+              loadingText="Loading"
+              successText="Done"
+              onClick={onClickHandler}
+              block={true}
+              size={'normal'}
+              className={'btn'}
+              animation={true}
+              
+    />
             </div>
           </Form>
         </div>

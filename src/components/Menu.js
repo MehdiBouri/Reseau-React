@@ -31,9 +31,9 @@ export default function Menu() {
         </Navbar.Collapse>
 
         <div className="d-flex">
-          <Nav.Link href="/login">Se connecter</Nav.Link>
+          <Nav.Link href="/connexion">Se connecter</Nav.Link>
           <span className="separator"> | </span>
-          <Nav.Link href="/register">S'inscrire</Nav.Link>
+          <Nav.Link href="/inscription">S'inscrire</Nav.Link>
         </div>
       </Container>
     </Navbar>

@@ -1,0 +1,19 @@
+.pi-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .pi-left {
+    display: flex;
+    flex: 1;
+  }
+  
+  .pi-right {
+    display: flex;
+    flex: 3;
+  }
+  

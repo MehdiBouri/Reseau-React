@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import posts from '../posts'
-import '../css/Home.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import posts from '../posts';
+import '../css/Home.css';
 
 const Posts = () => {
   return (
@@ -9,8 +9,9 @@ const Posts = () => {
       <div className='home-posts container col-md-7 mt-4'>
         {posts.map((post) => (
           <Link
-            to='/profile'
+            to={`/profile/${post._id}`}
             style={{ textDecoration: 'none', color: '#5c5c5c' }}
+            key={post._id}
           >
             <div key={post._id} className='posts-content'>
               <>
@@ -24,7 +25,7 @@ const Posts = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Posts
+export default Posts;

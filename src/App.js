@@ -5,7 +5,6 @@ import Menu from './components/Menu';
 
 import './css/app.css';
 import Login from './pages/Login';
-import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/connexion' element={<Login />} />
-        <Route path='/profile' element={<Profile />} />
       </Routes>
     </>
   );

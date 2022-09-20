@@ -30,16 +30,15 @@ input[type="text"] {
     margin-bottom: 10px;
   }
 
-  .register  .button-container {
+  .register .button-container {
     display: flex;
     justify-content: center;
   }
 
   /* ### BOUTON ### */
 
-  .register  .btn{
+  .register .btn{
     background-color: #7235F3;
-    width: 110%;
     border-radius: 10px;
     padding: 10px;
     color: #fff;

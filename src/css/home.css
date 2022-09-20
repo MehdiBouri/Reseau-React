@@ -7,7 +7,6 @@ body {
 }
 
 div.home-posts {
-  margin-left: 10%;
   margin-top: 3em;
   display: flex;
   flex-direction: column;
@@ -15,31 +14,33 @@ div.home-posts {
   align-items: center;
 }
 
-.posts-content {
+div.card {
   background: #f5f5f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px;
+  border:0;
+  margin-bottom:20px;
   padding: 10px 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(100, 100, 100, 0.1);
 }
 
-.imgBx {
-  width: 100px;
-  height: 100px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.text-content {
+div.card-body {
+  margin-left:15px;
   padding: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius:15px;
+  box-shadow: 0 0 20px rgba(100, 100, 100, 0.1);
 }
 
-.imgBx img {
-  border-radius: 50px;
-  object-fit: cover;
-  width: 100px;
-  height: 100px;
+.card-infos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:10px;
+}
+
+h5.card-title {
+  font-size:1rem;
+  font-weight:bold;
+}
+
+small.text-muted {
+  color:rgb(160, 160, 160) !important;
+  font-size:0.8rem;
 }

@@ -55,14 +55,14 @@ export default function Register() {
               <Field
                 id="surname"
                 name="surname"
-                placeholder="prenom..."
+                placeholder="Prénom..."
                 type="text"
               />
             </div>
             <div className="button-container">
               <ReactiveButton
                 buttonState={state}
-                idleText="inscription"
+                idleText="Je m'inscris"
                 loadingText="Loading"
                 successText="Done"
                 onClick={onClickHandler}

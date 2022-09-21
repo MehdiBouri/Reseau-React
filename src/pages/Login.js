@@ -14,7 +14,7 @@ export default function LoginForm() {
           password: "",
         }}
       >
-        <div classname="form">
+        <div className="form">
           <Form>
             <div className="input-container">
               {/*<label htmlFor="email">E-mail...</label>*/}
@@ -35,7 +35,7 @@ export default function LoginForm() {
               />
             </div>
             <div className="button-container">
-              <button type="submit" class="btn">
+              <button type="submit" className="btn">
                 Se connecter
               </button>
             </div>

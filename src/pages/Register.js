@@ -55,7 +55,7 @@ export default function Register() {
               <Field
                 id="surname"
                 name="surname"
-                placeholder="prenom..."
+                placeholder="Prénom..."
                 type="text"
               />
             </div>

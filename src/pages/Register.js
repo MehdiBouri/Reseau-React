@@ -60,17 +60,9 @@ export default function Register() {
               />
             </div>
             <div className="button-container">
-              <ReactiveButton
-                buttonState={state}
-                idleText="inscription"
-                loadingText="Loading"
-                successText="Done"
-                onClick={onClickHandler}
-                block={true}
-                size={"normal"}
-                className={"btn"}
-                animation={true}
-              />
+              <button type="submit" class="btn">
+                S'enregistrer
+              </button>
             </div>
           </Form>
         </div>

@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   min-height: 100vh;
   background: #fff;
+  min-width: 40vh;
 }
 
 div.home-posts {
@@ -16,31 +17,33 @@ div.home-posts {
 
 div.card {
   background: #f5f5f5;
-  border:0;
-  margin-bottom:20px;
+  border: 0;
+  margin-bottom: 20px;
   padding: 10px 10px;
   box-shadow: 0 0 20px rgba(100, 100, 100, 0.1);
+  min-width: 90vh;
+  margin-top: 100px;
 }
 
 div.card-body {
-  margin-left:15px;
+  margin-left: 15px;
   padding: 20px;
-  border-radius:15px;
+  border-radius: 15px;
   box-shadow: 0 0 20px rgba(100, 100, 100, 0.1);
 }
 
 .card-infos {
   display: flex;
   justify-content: space-between;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 h5.card-title {
-  font-size:1rem;
-  font-weight:bold;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 small.text-muted {
-  color:rgb(160, 160, 160) !important;
-  font-size:0.8rem;
+  color: rgb(160, 160, 160) !important;
+  font-size: 0.8rem;
 }
